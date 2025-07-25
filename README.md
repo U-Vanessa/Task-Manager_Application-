@@ -109,7 +109,7 @@ npm install
 node src/app.js
 ```
 
-#### Sample Task Format (tasks.json)
+### Sample Task Format (tasks.json)
 [
   {
     "id": 1,
