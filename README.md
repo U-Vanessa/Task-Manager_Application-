@@ -52,6 +52,9 @@ The application follows a layered OOP design with the following key components:
 ###  File Structure
 
 task-manager/
+├── data/
+├── task.json  
+├── tasks.json  
 │
 ├── docs/                    
 │   ├── project-proposal.pdf
@@ -59,32 +62,25 @@ task-manager/
 │   ├── UML/
 │   │   ├── class-diagram.png
 │   │   └── use-case-diagram.png
-│   └── individual-reports/
-│       ├── member1-report.pdf
-│       └── member2-report.pdf
+│   └── Reports/
+│       ├── Task Manager_Project Report.pdf
 │
 ├── src/                     
 │   ├── models/              
 │   │   ├── Task.js
-│   │   └── TaskManager.js
 │   │
 │   ├── services/            
-│   │   └── FileService.js
+│   │   └── TaskManager.js
 │   │
 │   ├── utils/                
-│   │   └── helpers.js
-│   │
-│   ├── cli/                
-│   │   └── app.js
-│   │
-│   └── data/                
-│       └── tasks.json
+│       └── fileHandler.js
 │
 ├── tests/                   
 │   └── Task.test.js
 │
 ├── .gitignore               
-├── package.json             
+├── package.json
+├── package-lock.json
 ├── README.md                
 
 
@@ -129,3 +125,9 @@ node src/app.js
 - All operations are wrapped with try-catch for stability.
 
 - Tasks persist between sessions via tasks.json.
+
+Team Members
+- Vanessa
+- Thierry
+- Gabriel
+- Marvelous
